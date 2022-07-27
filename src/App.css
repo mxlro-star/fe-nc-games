@@ -2,84 +2,37 @@
   text-align: center;
 }
 
-.review-list {
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 30px
-}
-.review-img {
-height:300px;
-width: 33%;
-/* border: 5px; */
-border-radius: 3px;
-margin-left:-10px;
-}
-
-.review-card {
-  width:50%;
-  height: 300px;;
-  border:2px solid darkgray;
-  border-radius: 8px;
-  display:flex;
-  flex-direction: row;
   justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
 }
 
-.review-card-head {
-  width: 33%;
-display:flex;
-flex-direction: column;
-justify-content:space-between;
-
+.App-link {
+  color: #61dafb;
 }
 
-.review-card-body {
-  width:33%;
-  display:flex;
-  flex-direction: column;
-  justify-content: space-around;
-}
-
-.review-card-tail {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  /* margin-top: auto; */
-  align-self: flex-end;
-}
-.review-card-list {
-  list-style-type: none;
-}
-
-.category-bar {
-  background-color: aquamarine;
-}
-
-.icon {
-  width: 24px;
-  height: 24px;
-}
-
-.iconButton {
-  all: unset;
-  cursor: pointer;
-}
-
-.iconButton:hover {
-  box-shadow: 1px 1px 1px 1px darkgray;
-}
-
-.review-likes {
-  font-size: 24px;
-}
-
-.review-card-category {
-  border-radius: 32px;
-  width: 30%;
-  align-self: center;
-}
-
-.header {
-  height: 75px;
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
