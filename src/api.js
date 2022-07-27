@@ -5,5 +5,5 @@ export default api;
 
 api.getReviews = axios({
   method: "get",
-  url: "http://localhost:9090/api/reviews",
+  url: "https://games-review-board.herokuapp.com/api/reviews/",
 });
