@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 import "./App.css";
 
 import Header from "./components/Header";
@@ -10,6 +11,10 @@ import AllReviews from "./components/AllReviews";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 
 import logo from "./logo.svg";
+=======
+import logo from "./logo.svg";
+import "./App.css";
+>>>>>>> Stashed changes
 
 function App() {
   return (
